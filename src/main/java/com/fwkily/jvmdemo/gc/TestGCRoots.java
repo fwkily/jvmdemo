@@ -4,6 +4,15 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
+/**
+ * @Description TODO
+ * @author fuwk
+ * @date 2022/9/21 4:44 PM
+ * 使用UseParNewGC： -XX:+UseParNewGC -XX:+UseConcMarkSweepGC
+ * 使用serialGC：-XX:+UseSerialGC
+ * jdk8 默认：-XX:+UseParallelGC
+ *          当开启-XX:+UseParallelGC，UseParallelOldGC也激活，他们两个互相激活（开启一个，另一个默认激活）
+ */
 public class TestGCRoots {
 
     public static void main(String[] args) throws InterruptedException {

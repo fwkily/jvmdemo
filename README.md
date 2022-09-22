@@ -54,10 +54,14 @@ gc
 ![avatar](src/main/java/com/fwkily/picture/gc/gc1.png)  
 ![avatar](src/main/java/com/fwkily/picture/gc/gc2.png)  
 ![avatar](src/main/java/com/fwkily/picture/gc/gc3.png)  
+![avatar](src/main/java/com/fwkily/picture/gc/gc_collector.png)  
+![avatar](src/main/java/com/fwkily/picture/gc/gc_cms.png)  
+![avatar](src/main/java/com/fwkily/picture/gc/endGc.png)  
 
 
 
 ##### JVM文档
+https://docs.oracle.com/javase/specs/
 https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-2.html#jvms-2.5.1
 ##### JVM参数设置文档
 https://docs.oracle.com/javase/8/docs/technotes/tools/unix/java.html
